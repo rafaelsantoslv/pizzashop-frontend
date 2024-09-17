@@ -4,6 +4,7 @@ import DayOrdersAmountCard from './day-orders-amount-card'
 import MonthCanceledOrdersCard from './month-canceled-orders-amount'
 import MonthOrdersAmountCard from './month-orders-amount-card'
 import MonthRevenueCard from './month-revenue-card'
+import PopularProductsChart from './popular-products-chart'
 import RevenueChart from './revenue-chart'
 const DashBoard = () => {
   return (
@@ -19,6 +20,7 @@ const DashBoard = () => {
         </div>
         <div className="grid grid-cols-9 gap-4">
           <RevenueChart />
+          <PopularProductsChart />
         </div>
       </div>
     </>
